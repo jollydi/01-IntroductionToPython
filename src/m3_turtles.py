@@ -89,7 +89,7 @@ boris = rg.SimpleTurtle()
 boris.forward(100)
 boris.left(90)
 boris.forward(200)
-boris.pen=rg.Pen()
+boris.pen=rg.Pen('purple',10)
 boris.speed=8
 boris.left(135)
 boris.forward(250)
