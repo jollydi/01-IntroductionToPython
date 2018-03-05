@@ -89,8 +89,8 @@ boris = rg.SimpleTurtle()
 boris.forward(100)
 boris.left(90)
 boris.forward(200)
-boris.pen=rg.Pen('purple',10)
-boris.speed=8
+boris.pen = rg.Pen('alice blue', 10)
+boris.speed = 8
 boris.left(135)
 boris.forward(250)
 
@@ -99,7 +99,7 @@ boris.forward(250)
 # set its  pen  and  speed  INSTANCE VARIABLES, and ask it to do things.
 # -----------------------------------------------------------------------------
 natasha = rg.SimpleTurtle('turtle')
-natasha.pen = rg.Pen('red', 15)  # Second argument is the Pen's thickness
+natasha.pen = rg.Pen('cornflower blue', 15)  # Second argument is the Pen's thickness
 natasha.speed = 6  # Faster
 
 natasha.backward(50)
@@ -108,11 +108,21 @@ natasha.forward(50)
 natasha.right(20)
 natasha.forward(175)
 
+james = rg.SimpleTurtle('turtle')
+james.pen = rg.Pen('dark salmon', 22)
+james.speed = 3
+james.forward(50)
+james.left(90)
+james.forward(50)
+james.left(90)
+james.forward(50)
+james.left(90)
+james.forward(50)
 
 
 ###############################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add a few more line of your own code to make one of the
 #   existing SimpleTurtles move some more and/or have different
 #   characteristics.
@@ -126,7 +136,7 @@ natasha.forward(175)
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       dave    matt
@@ -153,7 +163,7 @@ natasha.forward(175)
 
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
