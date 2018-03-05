@@ -10,7 +10,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 ###############################################################################
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m4e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -42,7 +42,7 @@ franklin.speed = 10
 for k in range(10):
 
     jake.draw_circle(k*25)
-    franklin.draw_regular_polygon(5,30*k)
+    franklin.draw_regular_polygon(5, 30*k)
 
     jake.pen_up()
     jake.right(90)
